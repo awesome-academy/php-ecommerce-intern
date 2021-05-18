@@ -32,8 +32,12 @@ return [
     'admin_id' => 1,
     'pending_order_status' => 0,
     'approved_order_status' => 1,
-    'denied_order_status' => 2,     
-    
+    'denied_order_status' => 2,
+
+    //Limited fake records using for testing
+    'fake_records_number' => 3,
+    'default_record_id' => 1,
+
     /*
     |--------------------------------------------------------------------------
     | Application Environment
